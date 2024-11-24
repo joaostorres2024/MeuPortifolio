@@ -87,6 +87,8 @@
 }
 
 .hello_world {
+  margin-left: -5px;
+  font-size: 60px;
   margin-bottom: 10px;
 }
 
@@ -119,6 +121,11 @@
 .photo {
   border-radius: 1000px;
   height: 380px;
+}
+
+.aboutme_container{
+  width: 100vw;
+  height: 500px;
 }
 
 /*Media Query para Celular*/
