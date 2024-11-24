@@ -1,6 +1,7 @@
 /*Media Query para Desktop*/
 
 * {
+  scroll-behavior: smooth;
   overflow-x: hidden;
   margin: 0;
   padding: 0;
@@ -86,17 +87,17 @@
   font-size: 20px;
 }
 
-.hello_world {
+#hello_world {
   margin-left: -5px;
   font-size: 60px;
   margin-bottom: 10px;
 }
 
-.p_text1 {
+#p_text1 {
   margin-bottom: 10px;
 }
 
-.btn {
+#btn {
   margin-top: 20px;
   cursor: pointer;
   border: transparent;
@@ -108,13 +109,13 @@
   width: 170px;
 }
 
-.btn:hover {
+#btn:hover {
   transition: all 0.3s ease;
   color: white;
   background-color: #9d57ff;
 }
 
-.btn:not(:hover) {
+#btn:not(:hover) {
   transition: all 0.3s ease-out;
 }
 
@@ -124,8 +125,36 @@
 }
 
 .aboutme_container{
+  padding: 0 100px 0 ;
+  text-align: left;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
   width: 100vw;
-  height: 500px;
+  height: 550px;
+}
+
+#aboutme_text{
+  margin-bottom: 20px;
+  color: #6700f7;
+  font-size: 70px;
+  text-align: left;
+}
+
+#aboutme_p{
+  font-size: 20px;
+}
+
+.icon_ul{
+  margin-left: -25px;
+  margin-top: 40px;
+  flex-direction: row;
+  display: flex;
+}
+
+.icons{
+  width: 100px;
+  padding: 0 20px 0;
 }
 
 /*Media Query para Celular*/
@@ -152,16 +181,18 @@
     font-size: 16px;
   }
 
-  .hello_world {
+  #hello_world {
+    font-size: 40px;
     margin-bottom: 10px;
   }
 
-  .p_text1 {
+  #p_text1 {
+    font-size: 15px;
     margin-bottom: 10px;
   }
 
-  .btn {
-    margin-bottom: 50px;
+  #btn {
+    margin-bottom: 60px;
     text-align: center;
     margin-top: 20px;
     cursor: pointer;
@@ -174,13 +205,13 @@
     width: 170px;
   }
 
-  .btn:hover {
+  #btn:hover {
     transition: all 0.3s ease;
     color: white;
     background-color: #9d57ff;
   }
 
-  .btn:not(:hover) {
+  #btn:not(:hover) {
     transition: all 0.3s ease-out;
   }
 
@@ -214,15 +245,16 @@
     font-size: 16px;
   }
 
-  .hello_world {
+  #hello_world {
+    font-size: 50px;
     margin-bottom: 10px;
   }
 
-  .p_text1 {
+  #p_text1 {
     margin-bottom: 10px;
   }
 
-  .btn {
+  #btn {
     margin-bottom: 50px;
     text-align: center;
     margin-top: 20px;
@@ -231,18 +263,18 @@
     font-weight: 600;
     text-align: center;
     border-radius: 30px;
-    font-size: 25px;
+    font-size: 20px;
     height: 50px;
     width: 170px;
   }
 
-  .btn:hover {
+  #btn:hover {
     transition: all 0.3s ease;
     color: white;
     background-color: #9d57ff;
   }
 
-  .btn:not(:hover) {
+  #btn:not(:hover) {
     transition: all 0.3s ease-out;
   }
 
