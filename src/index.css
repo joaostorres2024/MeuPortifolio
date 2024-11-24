@@ -1,0 +1,246 @@
+/*Media Query para Desktop*/
+
+* {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+.header_container {
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  padding: 0 20px 0;
+  height: 80px;
+  width: 100vw;
+  background: #000000;
+}
+
+#name_joao {
+  font-weight: 500;
+  font-size: 25px;
+  color: white;
+}
+
+#subtitle_joao {
+  margin-top: -5px;
+  font-weight: 300;
+  font-size: 15px;
+  color: white;
+}
+
+.nav_container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: white;
+  width: 100vw;
+  height: 40px;
+}
+
+.navbar_menu {
+  font-size: 15px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.navbar_menu li {
+  list-style-type: none;
+  padding: 0 8px 0;
+}
+
+.navbar_menu a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.navbar_menu a:hover {
+  color: #6700f7;
+  transition: 0.3s ease;
+}
+
+.navbar_menu a:not(:hover) {
+  color: #000000;
+  transition: 0.3s ease-out;
+}
+.presentation_container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+  height: 500px;
+  width: 100vw;
+  background: linear-gradient(#9d57ff, #6700f7);
+}
+
+.presentation_text {
+  padding: 0 30px 0;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  display: flex;
+  font-size: 20px;
+}
+
+.hello_world {
+  margin-bottom: 10px;
+}
+
+.p_text1 {
+  margin-bottom: 10px;
+}
+
+.btn {
+  margin-top: 20px;
+  cursor: pointer;
+  border: transparent;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 25px;
+  height: 50px;
+  width: 170px;
+}
+
+.btn:hover {
+  transition: all 0.3s ease;
+  color: white;
+  background-color: #9d57ff;
+}
+
+.btn:not(:hover) {
+  transition: all 0.3s ease-out;
+}
+
+.photo {
+  border-radius: 1000px;
+  height: 380px;
+}
+
+/*Media Query para Celular*/
+
+@media (max-width: 450px) {
+  .presentation_container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    height: 600px;
+    width: 100vw;
+    background: linear-gradient(#9d57ff, #6700f7);
+  }
+
+  .presentation_text {
+    align-items: center;
+    padding: 0 30px 0;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    font-size: 16px;
+  }
+
+  .hello_world {
+    margin-bottom: 10px;
+  }
+
+  .p_text1 {
+    margin-bottom: 10px;
+  }
+
+  .btn {
+    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    border: transparent;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 25px;
+    height: 50px;
+    width: 170px;
+  }
+
+  .btn:hover {
+    transition: all 0.3s ease;
+    color: white;
+    background-color: #9d57ff;
+  }
+
+  .btn:not(:hover) {
+    transition: all 0.3s ease-out;
+  }
+
+  .photo {
+    border-radius: 1000px;
+    height: 250px;
+  }
+}
+
+/*Media Query para Tablet*/
+
+@media (min-width: 450px) and (max-width: 870px) {
+  .presentation_container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    height: 600px;
+    width: 100vw;
+    background: linear-gradient(#9d57ff, #6700f7);
+  }
+
+  .presentation_text {
+    align-items: center;
+    padding: 0 30px 0;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    font-size: 16px;
+  }
+
+  .hello_world {
+    margin-bottom: 10px;
+  }
+
+  .p_text1 {
+    margin-bottom: 10px;
+  }
+
+  .btn {
+    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    border: transparent;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 25px;
+    height: 50px;
+    width: 170px;
+  }
+
+  .btn:hover {
+    transition: all 0.3s ease;
+    color: white;
+    background-color: #9d57ff;
+  }
+
+  .btn:not(:hover) {
+    transition: all 0.3s ease-out;
+  }
+
+  .photo {
+    border-radius: 1000px;
+    height: 250px;
+  }
+}
