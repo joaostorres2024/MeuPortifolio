@@ -89,8 +89,8 @@
 
 #hello_world {
   margin-left: -5px;
-  font-size: 60px;
-  margin-bottom: 10px;
+  font-size: 70px;
+  margin-bottom: 5px;
 }
 
 #p_text1 {
@@ -156,6 +156,96 @@
   width: 100px;
   padding: 0 20px 0;
 }
+
+.icons:hover{
+  transition: 0.3s ease;
+  transform: scale(1.1);
+}
+
+.icons:not(:hover){
+  transition: 0.3s ease-out;
+}
+
+.languages_container{
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  color: white;
+  height: 600px;
+  width: 100vw;
+  background-color: #000000;
+}
+
+#langsoft_text{
+  padding: 40px 0;
+  text-align: center;
+  font-size: 60px;
+}
+
+.soft_ul{
+  overflow: hidden;
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+}
+
+.soft_icons{
+  filter: saturate(0);
+  font-weight: 600;
+  font-size: 15px;
+  padding: 20px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.soft_img{
+  width: 90px;
+}
+
+.lang_ul{
+  overflow: hidden;
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+}
+
+.lang_icons{
+  filter: saturate(0);
+  font-weight: 600;
+  font-size: 15px;
+  padding: 20px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.lang_img{
+  width: 90px;
+}
+
+.lang_icons:hover{
+  transform: scale(1.25);
+  cursor: pointer;
+  transition: 0.3s ease;
+  filter: none;
+}
+
+.soft_icons:hover{
+  transform: scale(1.25);
+  cursor: pointer;
+  transition: 0.3s ease;
+  filter: none;
+}
+
+.soft_icons:not(:hover){
+  transition: 0.3s ease-out;
+}
+
+.lang_icons:not(:hover){
+  transition: 0.3s ease-out;
+}
+
 
 /*Media Query para Celular*/
 
