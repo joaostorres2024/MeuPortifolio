@@ -75,7 +75,18 @@
   color: white;
   height: 500px;
   width: 100vw;
-  background: linear-gradient(#9d57ff, #6700f7);
+  background: linear-gradient(to left, #bc57ff, #6700f7, #3d0094);
+  background-size: 500% 100%;
+  animation: degrade_animado 5s infinite alternate;
+}
+
+@keyframes degrade_animado {
+  0% {
+    background-position-x: 0%;
+  }
+  100% {
+    background-position-x: 100%;
+  }
 }
 
 .presentation_text {
@@ -124,8 +135,8 @@
   height: 380px;
 }
 
-.aboutme_container{
-  padding: 0 100px 0 ;
+.aboutme_container {
+  padding: 0 100px 0;
   text-align: left;
   justify-content: center;
   flex-direction: column;
@@ -134,39 +145,39 @@
   height: 550px;
 }
 
-#aboutme_text{
+#aboutme_text {
   margin-bottom: 20px;
   color: #6700f7;
   font-size: 70px;
   text-align: left;
 }
 
-#aboutme_p{
+#aboutme_p {
   font-size: 20px;
 }
 
-.icon_ul{
+.icon_ul {
   margin-left: -25px;
   margin-top: 40px;
   flex-direction: row;
   display: flex;
 }
 
-.icons{
+.icons {
   width: 100px;
   padding: 0 20px 0;
 }
 
-.icons:hover{
+.icons:hover {
   transition: 0.3s ease;
   transform: scale(1.1);
 }
 
-.icons:not(:hover){
+.icons:not(:hover) {
   transition: 0.3s ease-out;
 }
 
-.languages_container{
+.languages_container {
   align-items: center;
   flex-direction: column;
   display: flex;
@@ -176,20 +187,20 @@
   background-color: #000000;
 }
 
-#langsoft_text{
+#langsoft_text {
   padding: 40px 0;
   text-align: center;
   font-size: 60px;
 }
 
-.soft_ul{
+.soft_ul {
   overflow: hidden;
   justify-content: center;
   flex-direction: row;
   display: flex;
 }
 
-.soft_icons{
+.soft_icons {
   filter: saturate(0);
   font-weight: 600;
   font-size: 15px;
@@ -199,18 +210,18 @@
   display: flex;
 }
 
-.soft_img{
+.soft_img {
   width: 90px;
 }
 
-.lang_ul{
+.lang_ul {
   overflow: hidden;
   justify-content: center;
   flex-direction: row;
   display: flex;
 }
 
-.lang_icons{
+.lang_icons {
   filter: saturate(0);
   font-weight: 600;
   font-size: 15px;
@@ -220,32 +231,31 @@
   display: flex;
 }
 
-.lang_img{
+.lang_img {
   width: 90px;
 }
 
-.lang_icons:hover{
+.lang_icons:hover {
   transform: scale(1.25);
   cursor: pointer;
   transition: 0.3s ease;
   filter: none;
 }
 
-.soft_icons:hover{
+.soft_icons:hover {
   transform: scale(1.25);
   cursor: pointer;
   transition: 0.3s ease;
   filter: none;
 }
 
-.soft_icons:not(:hover){
+.soft_icons:not(:hover) {
   transition: 0.3s ease-out;
 }
 
-.lang_icons:not(:hover){
+.lang_icons:not(:hover) {
   transition: 0.3s ease-out;
 }
-
 
 /*Media Query para Celular*/
 
