@@ -354,10 +354,13 @@
 }
 
 .footer_container {
+  padding-left: 20px;
+  align-items: center;
+  display: flex;
   color: white;
   background: #000000;
   width: 100vw;
-  height: 300px;
+  height: 100px;
 }
 
 .adress a {
@@ -369,8 +372,17 @@
   text-decoration: underline;
 }
 
-.email {
+.footer_add {
   align-items: center;
   flex-direction: row;
   display: flex;
+}
+
+.email_img {
+  margin-right: 10px;
+  width: 25px;
+}
+
+.a_name {
+  color: white;
 }
