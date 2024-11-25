@@ -1,6 +1,7 @@
 /*Media Query para Desktop*/
 
 * {
+  animation: opacidade 1s;
   scroll-behavior: smooth;
   overflow-x: hidden;
   margin: 0;
@@ -10,22 +11,33 @@
 }
 
 .header_container {
-  justify-content: center;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   display: flex;
-  padding: 0 20px 0;
+  padding: 0 25px 0;
   height: 80px;
   width: 100vw;
   background: #000000;
 }
 
+.english {
+  width: 40px;
+  margin-right: 10px;
+  justify-content: center;
+  display: flex;
+}
+
 #name_joao {
+  align-items: center;
+  display: flex;
   font-weight: 500;
   font-size: 25px;
   color: white;
 }
 
 #subtitle_joao {
+  align-items: center;
+  display: flex;
   margin-top: -5px;
   font-weight: 300;
   font-size: 15px;
@@ -78,6 +90,15 @@
   background: linear-gradient(to left, #bc57ff, #6700f7, #3d0094);
   background-size: 500% 100%;
   animation: degrade_animado 5s infinite alternate;
+}
+
+@keyframes opacidade {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
 
 @keyframes degrade_animado {
@@ -278,23 +299,29 @@
 }
 
 .exp_ul {
+  padding-top: 10px;
   justify-content: center;
   align-items: center;
   display: flex;
 }
 
 .exp_ul a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  text-decoration: none;
   overflow: hidden;
 }
 
 .exp_li {
+  padding: 5px;
   text-align: center;
   flex-direction: column;
   display: flex;
 }
 
 .exp_img:hover {
-  transform: scale(1.02);
+  transform: scale(1.025);
   transition: 0.3s ease;
   filter: none;
 }
@@ -306,4 +333,22 @@
 #codenext {
   margin-bottom: 15px;
   width: 365px;
+}
+
+.p_projects {
+  font-weight: 400;
+  padding: 40px 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.p_projects a {
+  font-weight: 600;
+  color: #6700f7;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #6700f7;
+  text-decoration: underline;
 }
