@@ -398,6 +398,7 @@ body{
   @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 html{
+  overflow-x: hidden;
   scroll-behavior: smooth !important;
 }
 
@@ -652,72 +653,41 @@ body{
   width: 40px;
 }
 
-.exp_container {
+.exp_container{
+  overflow: hidden;
+  align-items: center;
   flex-direction: column;
   display: flex;
-  background-color: white;
   width: 100vw;
-  height: 800px;
+  height: 1100px;
 }
 
-#exp_text {
-  color: #6700f7;
-  padding: 45px 0;
-  text-align: center;
+#exp_text{
+  margin-top: 10  px;
+  padding: 15px;
   font-size: 25px;
 }
 
-.exp_img {
+.exp_img{
   filter: none;
-  margin-bottom: 15px;
-  border-radius: 10%;
-  padding: 0 20px 0;
-  width: 200px;
+  overflow: hidden;
+  width: 365px;
 }
 
-.exp_ul {
-  padding-top: 10px;
+.exp_ul{
+  display: grid;
+}
+
+.exp_ul a{
+  margin-bottom: 10px;
   justify-content: center;
   align-items: center;
   display: flex;
 }
 
-.exp_ul a {
-  font-size: 20px;
-  font-weight: 600;
-  color: #000000;
-  text-decoration: none;
-  overflow: hidden;
-}
-
-.exp_li {
-  padding: 5px;
-  text-align: center;
-  flex-direction: column;
-  display: flex;
-}
-
-#codenext {
-  margin-bottom: 15px;
-  width: 200px;
-}
-
-.p_projects {
-  font-weight: 400;
-  padding: 40px 0;
-  font-size: 20px;
-  text-align: center;
-}
-
-.p_projects a {
-  font-weight: 600;
-  color: #6700f7;
-  text-decoration: none;
-}
-
-.link:hover {
-  color: #6700f7;
-  text-decoration: underline;
+.p_projects{
+  width: 280px;
+  font-size: 12px;
 }
 
 .footer_container {
@@ -740,14 +710,19 @@ body{
 }
 
 .footer_add {
+  font-size: 10px;
   align-items: center;
   flex-direction: row;
   display: flex;
 }
 
+#Copyright{
+  font-size: 10px;
+}
+
 .email_img {
   margin-right: 10px;
-  width: 25px;
+  width: 15px;
 }
 
 .a_name {
