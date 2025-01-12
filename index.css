@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 /*Media Query para Desktop*/
 
 html{
@@ -16,7 +15,7 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins";
+  font-family: "Open Sans";
 }
 
 .header_container {
@@ -33,7 +32,7 @@ body{
   display: flex;
   font-weight: 500;
   font-size: 25px;
-  color: white;
+  color: #FCFCFC;
 }
 
 #subtitle_joao {
@@ -42,14 +41,14 @@ body{
   margin-top: -5px;
   font-weight: 300;
   font-size: 15px;
-  color: white;
+  color: #FCFCFC;
 }
 
 .nav_container {
   justify-content: center;
   align-items: center;
   display: flex;
-  background-color: white;
+  background-color: #FCFCFC;
   width: 100vw;
   height: 40px;
 }
@@ -85,7 +84,7 @@ body{
   align-items: center;
   justify-content: center;
   display: flex;
-  color: white;
+  color: #FCFCFC;
   height: 500px;
   width: 100vw;
   background: linear-gradient(to left, #bc57ff, #6700f7, #3d0094);
@@ -127,6 +126,8 @@ body{
 }
 
 #p_text1 {
+  font-size: 16px;
+  max-width: 570px;
   margin-bottom: 10px;
 }
 
@@ -144,8 +145,8 @@ body{
 
 #btn:hover {
   transition: all 0.3s ease;
-  color: white;
-  background-color: #6700f7;
+  color: #121212;
+  background-color: #d4d4d4;
 }
 
 #btn:not(:hover) {
@@ -158,9 +159,10 @@ body{
 }
 
 .aboutme_container {
-  background-color: white;
+  background-color: #FCFCFC;
   padding: 0 100px 0;
-  text-align: left;
+  text-align: center;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
   display: flex;
@@ -205,7 +207,7 @@ body{
   align-items: center;
   flex-direction: column;
   display: flex;
-  color: white;
+  color: #FCFCFC;
   height: 600px;
   width: 100vw;
   background-color: #000000;
@@ -282,7 +284,7 @@ body{
 }
 
 .exp_container {
-  background-color: white;
+  background-color: #FCFCFC;
   width: 100vw;
   height: 600px;
 }
@@ -361,14 +363,14 @@ body{
   padding-left: 20px;
   align-items: center;
   display: flex;
-  color: white;
+  color: #FCFCFC;
   background: #000000;
   width: 100vw;
   height: 100px;
 }
 
 .adress a {
-  color: white;
+  color: #FCFCFC;
   text-decoration: none;
 }
 
@@ -388,14 +390,13 @@ body{
 }
 
 .a_name {
-  color: white;
+  color: #FCFCFC;
 }
 
 /*Media Query Celular*/
 
 @media (max-width: 450px){
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 html{
   overflow-x: hidden;
   scroll-behavior: smooth !important;
@@ -411,7 +412,7 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins";
+  font-family: "Open Sans";
 }
 
 .header_container {
@@ -429,7 +430,7 @@ body{
   display: flex;
   font-weight: 500;
   font-size: 15px;
-  color: white;
+  color: #FCFCFC;
 }
 
 #subtitle_joao {
@@ -438,14 +439,14 @@ body{
   margin-top: -5px;
   font-weight: 300;
   font-size: 10px;
-  color: white;
+  color: #FCFCFC;
 }
 
 .nav_container {
   justify-content: center;
   align-items: center;
   display: flex;
-  background-color: white;
+  background-color: #FCFCFC;
   width: 100vw;
   height: 30px;
 }
@@ -482,7 +483,7 @@ body{
   align-items: center;
   justify-content: center;
   display: flex;
-  color: white;
+  color: #FCFCFC;
   height: 450px;
   width: 100vw;
   background: linear-gradient(to left, #bc57ff, #6700f7, #3d0094);
@@ -542,7 +543,7 @@ body{
 
 #btn:hover {
   transition: all 0.3s ease;
-  color: white;
+  color: #FCFCFC;
   background-color: #6700f7;
 }
 
@@ -557,7 +558,7 @@ body{
 
 .aboutme_container {
   align-items: center;
-  background-color: white;
+  background-color: #FCFCFC;
   text-align: center;
   justify-content: center;
   flex-direction: column;
@@ -604,7 +605,7 @@ body{
   justify-content: center;
   align-items: center;
   display: flex;
-  color: white;
+  color: #FCFCFC;
   height: 300px;
   width: 100vw;
   background-color: #000000;
@@ -661,8 +662,12 @@ body{
   height: 1100px;
 }
 
+.exp-space{
+  max-width: 200px;
+}
+
 #exp_text{
-  margin-top: 10  px;
+  margin-top: 10px;
   padding: 15px;
   font-size: 25px;
 }
@@ -693,14 +698,14 @@ body{
   padding-left: 20px;
   align-items: center;
   display: flex;
-  color: white;
+  color: #FCFCFC;
   background: #000000;
   width: 100vw;
   height: 100px;
 }
 
 .adress a {
-  color: white;
+  color: #FCFCFC;
   text-decoration: none;
 }
 
@@ -725,12 +730,12 @@ body{
 }
 
 .a_name {
-  color: white;
+  color: #FCFCFC;
 }
 }
 
 @media (max-width: 450px){
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 html{
   overflow-x: hidden;
@@ -747,7 +752,7 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins";
+  font-family: "Open Sans";
 }
 
 .header_container {
@@ -765,7 +770,7 @@ body{
   display: flex;
   font-weight: 500;
   font-size: 15px;
-  color: white;
+  color: #FCFCFC;
 }
 
 #subtitle_joao {
@@ -774,14 +779,14 @@ body{
   margin-top: -5px;
   font-weight: 300;
   font-size: 10px;
-  color: white;
+  color: #FCFCFC;
 }
 
 .nav_container {
   justify-content: center;
   align-items: center;
   display: flex;
-  background-color: white;
+  background-color: #FCFCFC;
   width: 100vw;
   height: 30px;
 }
@@ -818,7 +823,7 @@ body{
   align-items: center;
   justify-content: center;
   display: flex;
-  color: white;
+  color: #FCFCFC;
   height: 450px;
   width: 100vw;
   background: linear-gradient(to left, #bc57ff, #6700f7, #3d0094);
@@ -878,7 +883,7 @@ body{
 
 #btn:hover {
   transition: all 0.3s ease;
-  color: white;
+  color: #FCFCFC;
   background-color: #6700f7;
 }
 
@@ -893,7 +898,7 @@ body{
 
 .aboutme_container {
   align-items: center;
-  background-color: white;
+  background-color: #FCFCFC;
   text-align: center;
   justify-content: center;
   flex-direction: column;
@@ -940,7 +945,7 @@ body{
   justify-content: center;
   align-items: center;
   display: flex;
-  color: white;
+  color: #FCFCFC;
   height: 300px;
   width: 100vw;
   background-color: #000000;
@@ -998,7 +1003,7 @@ body{
 }
 
 #exp_text{
-  margin-top: 10  px;
+  margin-top: 10px;
   padding: 15px;
   font-size: 25px;
 }
@@ -1029,14 +1034,14 @@ body{
   padding-left: 20px;
   align-items: center;
   display: flex;
-  color: white;
+  color: #FCFCFC;
   background: #000000;
   width: 100vw;
   height: 100px;
 }
 
 .adress a {
-  color: white;
+  color: #FCFCFC;
   text-decoration: none;
 }
 
@@ -1061,7 +1066,7 @@ body{
 }
 
 .a_name {
-  color: white;
+  color: #FCFCFC;
 }
 }
 /*Media Query para Tablet*/
@@ -1101,7 +1106,7 @@ body{
   display: flex;
   font-weight: 500;
   font-size: 25px;
-  color: white;
+  color: #FCFCFC;
 }
 
 #subtitle_joao {
@@ -1110,14 +1115,14 @@ body{
   margin-top: -5px;
   font-weight: 300;
   font-size: 15px;
-  color: white;
+  color: #FCFCFC;
 }
 
 .nav_container {
   justify-content: center;
   align-items: center;
   display: flex;
-  background-color: white;
+  background-color: #FCFCFC;
   width: 100vw;
   height: 40px;
 }
@@ -1154,7 +1159,7 @@ body{
   align-items: center;
   justify-content: center;
   display: flex;
-  color: white;
+  color: #FCFCFC;
   height: 450px;
   width: 100vw;
   background: linear-gradient(to left, #bc57ff, #6700f7, #3d0094);
@@ -1214,7 +1219,7 @@ body{
 
 #btn:hover {
   transition: all 0.3s ease;
-  color: white;
+  color: #FCFCFC;
   background-color: #6700f7;
 }
 
@@ -1275,7 +1280,7 @@ body{
   align-items: center;
   flex-direction: column;
   display: flex;
-  color: white;
+  color: #FCFCFC;
   height: 400px;
   width: 100vw;
   background-color: #000000;
@@ -1353,7 +1358,7 @@ body{
 
 .exp_container {
   overflow: hidden;
-  background-color: white;
+  background-color: #FCFCFC;
   width: 100vw;
   height: 1100px;
 }
@@ -1433,14 +1438,14 @@ body{
   padding-left: 20px;
   align-items: center;
   display: flex;
-  color: white;
+  color: #FCFCFC;
   background: #000000;
   width: 100vw;
   height: 100px;
 }
 
 .adress a {
-  color: white;
+  color: #FCFCFC;
   text-decoration: none;
 }
 
@@ -1460,7 +1465,7 @@ body{
 }
 
 .a_name {
-  color: white;
+  color: #FCFCFC;
 }
 
 /*Media Query Celular*/
@@ -1501,7 +1506,7 @@ body{
   display: flex;
   font-weight: 500;
   font-size: 15px;
-  color: white;
+  color: #FCFCFC;
 }
 
 #subtitle_joao {
@@ -1510,14 +1515,14 @@ body{
   margin-top: -5px;
   font-weight: 300;
   font-size: 10px;
-  color: white;
+  color: #FCFCFC;
 }
 
 .nav_container {
   justify-content: center;
   align-items: center;
   display: flex;
-  background-color: white;
+  background-color: #FCFCFC;
   width: 100vw;
   height: 30px;
 }
@@ -1554,7 +1559,7 @@ body{
   align-items: center;
   justify-content: center;
   display: flex;
-  color: white;
+  color: #FCFCFC;
   height: 450px;
   width: 100vw;
   background: linear-gradient(to left, #bc57ff, #6700f7, #3d0094);
@@ -1614,7 +1619,7 @@ body{
 
 #btn:hover {
   transition: all 0.3s ease;
-  color: white;
+  color: #FCFCFC;
   background-color: #6700f7;
 }
 
@@ -1629,7 +1634,7 @@ body{
 
 .aboutme_container {
   align-items: center;
-  background-color: white;
+  background-color: #FCFCFC;
   text-align: center;
   justify-content: center;
   flex-direction: column;
@@ -1676,7 +1681,7 @@ body{
   justify-content: center;
   align-items: center;
   display: flex;
-  color: white;
+  color: #FCFCFC;
   height: 300px;
   width: 100vw;
   background-color: #000000;
@@ -1765,14 +1770,14 @@ body{
   padding-left: 20px;
   align-items: center;
   display: flex;
-  color: white;
+  color: #FCFCFC;
   background: #000000;
   width: 100vw;
   height: 100px;
 }
 
 .adress a {
-  color: white;
+  color: #FCFCFC;
   text-decoration: none;
 }
 
@@ -1797,7 +1802,7 @@ body{
 }
 
 .a_name {
-  color: white;
+  color: #FCFCFC;
 }
 }
 }
