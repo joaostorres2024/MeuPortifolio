@@ -317,61 +317,40 @@ body{
   color: #FCFCFC;
 }
 
-.my-projects-container{
-  flex-direction: column;
-  align-items: center;
+.projects{
+  justify-content: center;
   display: flex;
   background-color: #FCFCFC;
   width: 100vw;
-  height: 1000px;
+  height: 2000px;
 }
 
-.text-my-projects{
-  padding: 60px 0;
-  font-size: 60px;
+.btn-projects{
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  height: 80px;
+  width: 250px;
+  color: #FCFCFC;
+  background-color: #6700f7;
 }
 
-.projects{
-  display: flex;
-  flex-direction: row;
+.Yourclub{
+  width: 800px;
 }
 
-.projects-ul{
-  display: flex;
-  flex-direction: row;
+.my-projects{
+  padding: 50px 0;
+  text-align: center;
+  font-size: 50px;
 }
 
-.thumb-Yourclub{
-  border: 1px solid #001D7E;
-  border-radius: 30px;
-  width: 400px;
+.subscribe-text{
+  padding: 40px;
+  font-size: 20px;
+  text-align: center;
+  max-width: 800px;
 }
-
-.thumb-ConectePubli{
-  border-radius: 30px;
-  width: 400px;
-}
-
-.projects-2{
-  display: flex;
-  flex-direction: row;
-}
-
-.projects-ul2{
-  display: flex;
-  flex-direction: row;
-}
-
-.thumb-PersonaQuest{
-  border-radius: 30px;
-  width: 400px;
-}
-
-.thumb-STYLEfitness{
-  border-radius: 30px;
-  width: 400px;
-}
-
 
 /*Media Query Celular*/
 
@@ -409,7 +388,7 @@ body{
   align-items: center;
   display: flex;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 20px;
   color: #FCFCFC;
 }
 
@@ -418,7 +397,7 @@ body{
   display: flex;
   margin-top: -5px;
   font-weight: 300;
-  font-size: 10px;
+  font-size: 7px;
   color: #FCFCFC;
 }
 
@@ -495,12 +474,12 @@ body{
   flex-direction: column;
   text-align: center;
   display: flex;
-  font-size: 10px;
+  font-size: 6px;
 }
 
 #hello_world {
   margin-left: -5px;
-  font-size: 40px;
+  font-size: 25px;
   margin-bottom: 5px;
 }
 
