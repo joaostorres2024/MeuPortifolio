@@ -647,6 +647,7 @@ body{
 }
 
 .projects-container{
+  background-color: #FCFCFC;
   margin: 0;
   overflow: hidden;
   display: flex;
