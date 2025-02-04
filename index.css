@@ -608,7 +608,7 @@ hr {
   }
 
   .card p {
-    font-size: 11px; /* Diminui o tamanho da fonte */
+    font-size: 12px; /* Diminui o tamanho da fonte */
   }
 
   .scroll-down {
@@ -630,28 +630,29 @@ hr {
     justify-content: center;
     display: flex;
     width: 100vw;
-    height: 500px;
+    height: 450px;
     background-color: #FCFCFC;
   }
   
+.aboutme-photo-container{
+  display: none;
+}
+
   .aboutme-text-container{
-    padding: 0 20px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
   }
-  
-  .aboutme-photo-container{
-    padding: 0 20px;
-  }
-  
+
   .aboutme-img{
-    max-height: 100%;
-    max-width: 100%;
-    display: block;
+    display: none;
   }
   
   .h1-aboutme{
+    text-align: center;
     align-items: center;
     display: flex;
-    padding: 2px 0;
+    padding: 5px 0;
     font-size: 25px;
     background: linear-gradient(to right, #2CA2B4, #5598DE, #7F87FF, #F65AAD, #EC3D43);
     -webkit-background-clip: text;
@@ -661,12 +662,14 @@ hr {
   }
   
   .p1-aboutme{
-    padding: 2px 0;
+    text-align: left;
+    padding: 5px 0;
     font-size: 15px;
     font-weight: 500;
   }
   
   .p2-aboutme{
+    text-align: left;
     margin-bottom: 15px;
     padding: 10px 0;
     letter-spacing: 1px;
