@@ -252,6 +252,8 @@ hr {
 }
 
 #h2-card-exp-codenext{
+  overflow: hidden;
+  max-width: 100%;
   margin-bottom: 20px;
   text-align: left;
   font-size: 35px;
@@ -268,7 +270,11 @@ hr {
 .p-card-exp{
   margin-bottom: 30px;
   font-size: 18px;
-  max-width: 250px;
+  max-width: 100%;
+}
+
+.p-date-exp{
+  overflow: hidden;
 }
 
 .languages-container{
