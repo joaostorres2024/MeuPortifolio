@@ -786,7 +786,7 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 300px;
+    height: 280px;
     width: 100vw;
     background-color: #121212;
   }
@@ -803,7 +803,7 @@ hr {
   
   .ul-icons{
     max-width: 400px;
-    padding: 0 10px;
+    padding: 0 15px;
     justify-content: center;
     display: flex;
   }
