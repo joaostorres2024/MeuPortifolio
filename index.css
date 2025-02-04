@@ -637,10 +637,12 @@ hr {
   }
   
   .aboutme-photo-container{
-  display: flex;
+    padding: 0;
+    display: flex;
   }
 
   .aboutme-text-container{
+    padding: 0;
     justify-content: center;
     flex-direction: column;
     display: flex;
@@ -673,7 +675,7 @@ hr {
   }
   
   .p2-aboutme{
-    font-weight: 400;
+    font-weight: 500;
     text-align: left;
     margin-bottom: 15px;
     padding: 10px 0;
