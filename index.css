@@ -587,7 +587,7 @@ hr {
   }
 
   .h1-home {
-    margin-top: -220px;
+    margin-top: -240px;
     font-size: 25px; 
     text-align: left; 
   }
@@ -608,7 +608,7 @@ hr {
   }
 
   .card p {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 12px; /* Diminui o tamanho da fonte */
   }
 
@@ -670,7 +670,7 @@ hr {
   }
   
   .p2-aboutme{
-    font-weight: 300;
+    font-weight: 400;
     text-align: left;
     margin-bottom: 15px;
     padding: 10px 0;
