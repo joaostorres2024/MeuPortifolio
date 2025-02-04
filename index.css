@@ -705,13 +705,13 @@ hr {
     flex-direction: column;
     display: flex;
     background-color: #FBFBFD;
-    height: 300px;
+    height: 350px;
     width: 100vw;
   }
   
   .experiences-text{
     margin-top: -40px;
-    padding: 50px 0;
+    padding: 25px 0;
   }
   
   .experiences-card{
@@ -737,14 +737,15 @@ hr {
   }
   
   .card-exp{
+    margin: 0 5px;
     overflow: hidden;
     border: 1px solid #0071E3;
     border-radius: 20px;
     justify-content: center;
     flex-direction: column;
     display: flex;
-    height: 140px;
-    width: 170px;
+    height: 150px;
+    width: 160px;
     padding: 20px;
     background-color: #FCFCFC;
   }
@@ -764,9 +765,9 @@ hr {
   }
   
   .p-card-exp{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-size: 11px;
-    max-width: 250px;
+    max-width: 100%;
   }
 
   .p-date-exp{
