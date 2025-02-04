@@ -583,7 +583,7 @@ hr {
 
   .home-container {
     padding: 0 30px;
-    height: 500px;
+    height: 550px;
   }
 
   .h1-home {
@@ -612,7 +612,7 @@ hr {
   }
 
   .scroll-down {
-    right: 40px;
+    right: 30px;
     font-size: 12px;
   }
 
