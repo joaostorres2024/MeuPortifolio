@@ -626,18 +626,19 @@ hr {
   }
 
   .aboutme-container{
+    flex-direction: column;
     padding: 0 30px;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     display: flex;
     width: 100vw;
-    height: 450px;
+    height: 550px;
     background-color: #FCFCFC;
   }
   
-.aboutme-photo-container{
-  display: none;
-}
+  .aboutme-photo-container{
+  display: flex;
+  }
 
   .aboutme-text-container{
     justify-content: center;
@@ -646,7 +647,9 @@ hr {
   }
 
   .aboutme-img{
-    display: none;
+    margin-left: -20px;
+    padding: 30px 0;
+    width: 250px;
   }
   
   .h1-aboutme{
@@ -681,6 +684,7 @@ hr {
   }
   
   .btn-portfolio-aboutme{
+    margin-bottom: 30px;
     cursor: pointer;
     font-size: 15px;
     font-weight: 500;
