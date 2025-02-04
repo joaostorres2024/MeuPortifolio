@@ -578,7 +578,7 @@ hr {
 @media (max-width: 530px) {
 
   .ul-li-text{
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .home-container {
@@ -587,7 +587,7 @@ hr {
   }
 
   .h1-home {
-    margin-top: -100px;
+    margin-top: -190px;
     font-size: 25px; 
     text-align: left; 
   }
@@ -608,7 +608,7 @@ hr {
   }
 
   .card p {
-    font-size: 8px; /* Diminui o tamanho da fonte */
+    font-size: 11px; /* Diminui o tamanho da fonte */
   }
 
   .scroll-down {
