@@ -1230,6 +1230,7 @@ hr {
   }
   
   .footer-container{
+    font-size: 12px;
     letter-spacing: 1px;
     font-weight: 400;
     justify-content: center;
