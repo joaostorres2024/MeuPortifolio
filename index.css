@@ -342,6 +342,11 @@ hr {
   background-color: #FCFCFC;
 }
 
+.card-a{
+  text-decoration: none;
+  color: #121212;
+}
+
 .h2-projects{
   padding: 50px 0;
   font-size: 40px;
