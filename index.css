@@ -892,7 +892,7 @@ hr {
     justify-content: center;
     display: flex;
     width: 100vw;
-    height: 580px;
+    height: 600px;
     background-color: #FCFCFC;
   }
   
@@ -942,7 +942,7 @@ hr {
     padding: 10px 0;
     letter-spacing: 1px;
     font-weight: 200;
-    font-size: 12px;
+    font-size: 15px;
     max-width: 1000px;
   }
   
