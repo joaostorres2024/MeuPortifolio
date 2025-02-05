@@ -202,6 +202,19 @@ hr {
   background-color: #0071E3;
 }
 
+.btn-resume-aboutme{
+  background-color: #FCFCFC;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  border-radius: 30px;
+  height: 30px;
+  width: 170px;
+  color: #0071E3;
+  border: 1px solid #0071E3;
+}
+
 .experiences-container{
   justify-content: center;
   align-items: center;
@@ -879,7 +892,7 @@ hr {
     justify-content: center;
     display: flex;
     width: 100vw;
-    height: 550px;
+    height: 580px;
     background-color: #FCFCFC;
   }
   
@@ -934,7 +947,7 @@ hr {
   }
   
   .btn-portfolio-aboutme{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     cursor: pointer;
     font-size: 15px;
     font-weight: 500;
@@ -945,7 +958,19 @@ hr {
     color: #FCFCFC;
     background-color: #0071E3;
   }
-  
+  .btn-resume-aboutme{
+    background-color: #FCFCFC;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 30px;
+    height: 30px;
+    width: 170px;
+    color: #0071E3;
+    border: 1px solid #0071E3;
+  }
+
   .experiences-container{
     padding: 0 30px;
     justify-content: center;
