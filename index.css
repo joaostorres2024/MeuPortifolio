@@ -139,6 +139,7 @@ hr {
 }
 
 .aboutme-container{
+  overflow: hidden;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -303,6 +304,7 @@ hr {
   padding: 0 20px;
   justify-content: center;
   display: flex;
+  margin-bottom: 60px;
 }
 
 .icons-languages{
@@ -327,6 +329,75 @@ hr {
 .icons-img{
   padding: 20px;
   width: 150px;
+}
+
+.projects-container{
+  padding: 0 30px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 750px;
+  width: 100vw;
+  background-color: #FCFCFC;
+}
+
+.h2-projects{
+  padding: 50px 0;
+  font-size: 40px;
+  background: linear-gradient(to right, #2CA2B4, #5598DE, #7F87FF, #F65AAD, #EC3D43);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 500% auto;
+  animation: animated-gradient 20s linear infinite;
+}
+
+.card-projects-container{
+  flex-direction: row;
+  display: flex;
+}
+
+.card-projects{
+  margin: 10px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  background-color: #FBFBFD;
+  border-radius: 10px;
+  border: 1px solid #DADADA;
+  width: 480px;
+}
+
+.card-thumbnail{
+  width: 500px;
+}
+
+.h2-card-projects{
+  text-align: left;
+  padding: 15px 15px;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.p-card-projects{
+  color: #ADADAD;
+  text-align: center;
+  padding: 10px 15px;
+  max-width: 100%;
+  font-size: 18px;
+}
+
+.btn-projects{
+  margin-top: 40px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  border-radius: 30px;
+  height: 30px;
+  width: 150px;
+  color: #FCFCFC;
+  background-color: #0071E3;
 }
 
 @keyframes bounce {
