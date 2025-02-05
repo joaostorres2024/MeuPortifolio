@@ -841,7 +841,7 @@ hr {
   
   .p1-aboutme{
     text-align: left;
-    padding: 5px 0;
+    padding: px 0;
     font-size: 15px;
     font-weight: 500;
   }
@@ -1028,7 +1028,7 @@ hr {
     align-items: center;
     flex-direction: column;
     display: flex;
-    background-color: #FBFBFD;
+    background-color: #F0F0F0;
     border-radius: 10px;
     border: 1px solid #DADADA;
     width: 300px;
@@ -1043,7 +1043,7 @@ hr {
     text-align: center;
     padding: 15px 15px;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 20px;
   }
   
   .p-card-projects{
