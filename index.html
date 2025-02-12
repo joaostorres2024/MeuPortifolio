@@ -4,17 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
   <title>Portfolio - João Pedro Soares</title>
 </head>
 <body>
   <header>
     <div class="header-container">
       <ul class="ul-header-container">
-        <a class="a-li" href="#home"><li class="ul-li-text">Home</li></a>
-        <a class="a-li" href="#about"><li class="ul-li-text">Sobre Mim</li></a>
-        <a class="a-li" href="#experiences"><li class="ul-li-text">Experiências</li></a>
-        <a class="a-li" href="#projects"><li class="ul-li-text">Projetos</li></a>
-        <a class="a-li" href="#contact"><li class="ul-li-text">Contato</li></a>
+        <a class="a-li" href="#home"><li class="ul-li-text">HOME</li></a>
+        <a class="a-li" href="#about"><li class="ul-li-text">SOBRE MIM</li></a>
+        <a class="a-li" href="#experiences"><li class="ul-li-text">EXPERIÊNCIAS</li></a>
+        <a class="a-li" href="#projects"><li class="ul-li-text">PROJETOS</li></a>
+        <a class="a-li" href="#contact"><li class="ul-li-text">CONTATO</li></a>
       </ul>
     </div>
   </header>
@@ -26,11 +27,11 @@
         <div class="cards-container">
           <div class="card">
             <h2>UX/UI Designer</h2>
-            <p>Crio interfaces digitais intuitivas e atraentes, ajustando com base no feedback dos usuários. Foco em garantir interações agradáveis.</p>
+            <p class="card-p">Crio interfaces digitais intuitivas e atraentes, ajustando com base no feedback dos usuários. Foco em garantir interações agradáveis.</p>
           </div>
           <div class="card">
             <h2>Desenvolvedor Front-End</h2>
-            <p>Desenvolvo interfaces web eficientes e visualmente cativantes, aplicando as últimas tecnologias e seguindo as melhores práticas de desenvolvimento.</p>
+            <p class="card-p">Desenvolvo interfaces web eficientes e visualmente cativantes, aplicando as últimas tecnologias e seguindo as melhores práticas de desenvolvimento.</p>
           </div>
         </div>
         <div class="scroll-down">
@@ -61,17 +62,18 @@
           <h2 class="h2-experiences">Minha Experiência</h2>
           <p class="p-experiences">Esta é minha experiência de trabalho em 2 anos.</p>
         </div>
-        <div class="experiences-card">
-          <div class="card-exp">
-            <h2 id="h2-card-exp-codenext">CodeNext</h2>
-            <p class="p-card-exp">Desenvolvedor Front End | UX/UI Designer</p>
-            <wbr><p class="p-date-exp">12/2023 - 12/2024</p></wbr>
-          </div>
-            <div class="card-exp">
-              <h2 id="h2-card-exp-yourclub">YourClub.io</h2>
-              <p class="p-card-exp">UX/UI Designer</p>
-              <p class="p-date-exp">01/2025 - O momento</p>
-            </div>
+        <div class="box">
+          <h4>2023 - 2024</h4>
+          <h3>CodeNext</h3>
+          <p class="job">UX/UI Designer e Desenvolvedor Front-End</p>
+          <p class="describe">Desenvolvi interfaces responsivas e colaborei com desenvolvedores e stakeholders, resultando em maior engajamento dos usuários. Utilizei React.js e metodologias Scrum para projetos eficientes, e apliquei Tailwind CSS para designs acessíveis.</p>
+        </div>
+        <div class="box">
+          <h4>2024 - O momento</h4>
+          <h3>YourClub.io</h3>
+          <p class="job">UX/UI Designer</p>
+          <p class="describe">Desenvolvi interfaces intuitivas e modernas para uma funcionalidade de inteligência artificial e redesenhei o aplicativo, melhorando a usabilidade. Criei protótipos no Figma e colaborei com equipes para aumentar o engajamento dos usuários.</p>
+        </div>
       </div>
     </section>
     <section id="languages">
