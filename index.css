@@ -223,12 +223,13 @@ hr {
 }
 
 .experiences-container{
+  padding: 0 100px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   display: flex;
   background-color: #FBFBFD;
-  height: 900px;
+  height: 600px;
   width: 100vw;
 }
 
@@ -285,6 +286,11 @@ hr {
   align-items: start;
 }
 
+.box-container{
+  flex-direction: row;
+  display: flex;
+}
+
 .box:hover{
   cursor: pointer;
   transform: scale(1.03);
@@ -320,7 +326,7 @@ hr {
 .describe{
   padding: 0 15px;
   font-size: 18px;
-  max-width: 700px;
+  max-width: 550px;
 }
 
 .languages-container{
