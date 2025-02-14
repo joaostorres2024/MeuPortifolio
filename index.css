@@ -985,10 +985,11 @@ hr {
   }
 
   .card h2 {
-    font-size: 15px; /* Diminui o tamanho da fonte */
+    font-size: 18px; /* Diminui o tamanho da fonte */
   }
 
-  .card p {
+  .card-p {
+    max-width: 220px;
     font-weight: 400;
     font-size: 12px; /* Diminui o tamanho da fonte */
   }
