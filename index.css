@@ -1053,12 +1053,12 @@ hr {
   .p1-aboutme{
     text-align: left;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 550;
   }
   
   .p2-aboutme{
     overflow: hidden;
-    font-weight: 500;
+    font-weight: 450;
     text-align: left;
     margin-bottom: 15px;
     padding: 10px 0;
@@ -1080,6 +1080,7 @@ hr {
     color: #FCFCFC;
     background-color: #0071E3;
   }
+
   .btn-resume-aboutme{
     margin: 0;
     background-color: #FCFCFC;
@@ -1101,7 +1102,7 @@ hr {
     flex-direction: column;
     display: flex;
     background-color: #FBFBFD;
-    height: 700px;
+    height: 800px;
     width: 100vw;
   }
   
@@ -1118,7 +1119,6 @@ hr {
   }
   
   .h2-experiences{
-    margin-bottom: 5px;
     font-size: 30px;
     background: linear-gradient(to right, #2CA2B4, #5598DE, #7F87FF, #F65AAD, #EC3D43);
     -webkit-background-clip: text;
@@ -1129,7 +1129,7 @@ hr {
   
   .p-experiences{
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 550;
   }
   
   .card-exp{
@@ -1161,9 +1161,9 @@ hr {
   }
   
   .box{
+    margin-top: 5px;
     border-radius: 20px;
     border: 1px solid #D9D9D9;
-    margin: 10px;
     background-color: #fafafa;
     padding: 30px 0;
     flex-direction: column;
@@ -1206,11 +1206,11 @@ hr {
   .job{
     padding: 0 15px;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 550;
   }
   
   .describe{
-    font-weight: 500;
+    font-weight: 450;
     max-width: 100%;
     padding: 0 15px;
     font-size: 15px;
