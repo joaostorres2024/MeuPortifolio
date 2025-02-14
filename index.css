@@ -1015,7 +1015,7 @@ hr {
     justify-content: center;
     display: flex;
     width: 100vw;
-    height: 600px;
+    height: 750px;
     background-color: #FCFCFC;
   }
   
@@ -1041,8 +1041,7 @@ hr {
     text-align: center;
     align-items: center;
     display: flex;
-    padding: 5px 0;
-    font-size: 25px;
+    font-size: 30px;
     background: linear-gradient(to right, #2CA2B4, #5598DE, #7F87FF, #F65AAD, #EC3D43);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1052,9 +1051,8 @@ hr {
   
   .p1-aboutme{
     text-align: left;
-    padding: px 0;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 550;
   }
   
   .p2-aboutme{
@@ -1064,8 +1062,8 @@ hr {
     margin-bottom: 15px;
     padding: 10px 0;
     letter-spacing: 1px;
-    font-weight: 200;
-    font-size: 15px;
+    font-weight: 400;
+    font-size: 16px;
     max-width: 1000px;
   }
   
@@ -1073,7 +1071,7 @@ hr {
     margin-bottom: 10px;
     cursor: pointer;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 700;
     border: none;
     border-radius: 30px;
     height: 30px;
@@ -1082,14 +1080,15 @@ hr {
     background-color: #0071E3;
   }
   .btn-resume-aboutme{
+    margin: 0;
     background-color: #FCFCFC;
     cursor: pointer;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 700;
     border: none;
     border-radius: 30px;
     height: 30px;
-    width: 170px;
+    width: 150px;
     color: #0071E3;
     border: 1px solid #0071E3;
   }
