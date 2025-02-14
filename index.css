@@ -1032,9 +1032,10 @@ hr {
   }
 
   .aboutme-img{
+    margin-top: -20px;
     margin-left: -20px;
     padding: 30px 0;
-    width: 250px;
+    width: 280px;
   }
   
   .h1-aboutme{
@@ -1052,7 +1053,7 @@ hr {
   .p1-aboutme{
     text-align: left;
     font-size: 18px;
-    font-weight: 550;
+    font-weight: 700;
   }
   
   .p2-aboutme{
@@ -1062,7 +1063,7 @@ hr {
     margin-bottom: 15px;
     padding: 10px 0;
     letter-spacing: 1px;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     max-width: 1000px;
   }
@@ -1100,7 +1101,7 @@ hr {
     flex-direction: column;
     display: flex;
     background-color: #FBFBFD;
-    height: 350px;
+    height: 700px;
     width: 100vw;
   }
   
@@ -1118,7 +1119,7 @@ hr {
   
   .h2-experiences{
     margin-bottom: 5px;
-    font-size: 25px;
+    font-size: 30px;
     background: linear-gradient(to right, #2CA2B4, #5598DE, #7F87FF, #F65AAD, #EC3D43);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1127,8 +1128,8 @@ hr {
   }
   
   .p-experiences{
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 700;
   }
   
   .card-exp{
@@ -1159,15 +1160,62 @@ hr {
     color: #F65AAD;
   }
   
-  .p-card-exp{
-    margin-bottom: 20px;
-    font-size: 11px;
+  .box{
+    border-radius: 20px;
+    border: 1px solid #D9D9D9;
+    margin: 10px;
+    background-color: #fafafa;
+    padding: 30px 0;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }
+  
+  .box-container{
+    flex-direction: column;
+    display: flex;
+  }
+  
+  .box:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+  }
+  
+  .box:not(:hover){
+    transition: all 0.3s ease;
+  }
+  
+  .box h4{
+    padding: 0 15px;
+    font-weight: 450;
+    font-size: 20px;
+  }
+  
+  .box h3{
+    padding: 0 13px;
+    background: linear-gradient(to right, #2CA2B4, #5598DE, #7F87FF, #F65AAD, #EC3D43);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: animated-gradient 20s linear infinite;
+    font-size: 30px;
+  }
+  
+  .job{
+    padding: 0 15px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  .describe{
+    font-weight: 500;
     max-width: 100%;
+    padding: 0 15px;
+    font-size: 15px;
   }
 
-  .p-date-exp{
-    font-size: 12px;
-  }
   .languages-container{
     padding: 20px 30px;
     flex-direction: column;
