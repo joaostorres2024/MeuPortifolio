@@ -48,7 +48,7 @@ hr {
 }
 
 .a-li {
-  font-weight: 700;
+  font-weight: 550;
   text-decoration: none;
   color: #FCFCFC;
   text-decoration: none;
@@ -177,7 +177,7 @@ hr {
 
 .p1-aboutme{
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 550;
 }
 
 .p2-aboutme{
@@ -255,7 +255,7 @@ hr {
 
 .p-experiences{
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 550;
 }
 
 #h2-card-exp-codenext{
@@ -320,7 +320,7 @@ hr {
 .job{
   padding: 0 15px;
   font-size: 25px;
-  font-weight: 700;
+  font-weight: 550;
 }
 
 .describe{
