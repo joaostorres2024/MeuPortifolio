@@ -751,7 +751,7 @@ hr {
   .job{
     padding: 0 15px;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 550;
   }
   
   .describe{
@@ -1059,12 +1059,11 @@ hr {
   
   .p2-aboutme{
     overflow: hidden;
-    font-weight: 450;
     text-align: left;
     margin-bottom: 15px;
     padding: 10px 0;
     letter-spacing: normal;
-    font-weight: 500;
+    font-weight: 450;
     font-size: 16px;
     max-width: 1000px;
   }
