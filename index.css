@@ -110,7 +110,7 @@ hr {
 }
 
 .card-p {
-  letter-spacing: 1px;
+  letter-spacing: normal;
   font-weight: 450;
   max-width: 350px;
   font-size: 16px;
@@ -183,7 +183,7 @@ hr {
 .p2-aboutme{
   margin-bottom: 15px;
   padding: 10px 0;
-  letter-spacing: 1px;
+  letter-spacing: normal;
   font-weight: 350;
   font-size: 20px;
   max-width: 500px;
@@ -581,7 +581,8 @@ hr {
   }
 
   .card-p {
-    font-weight: 450;
+    letter-spacing: normal;
+    font-weight: 350;
     max-width: 300px;
     font-size: 17px; /* Diminui o tamanho da fonte */
   }
@@ -649,12 +650,12 @@ hr {
   }
   
   .p2-aboutme{
+    letter-spacing: normal;
     overflow: hidden;
     font-weight: 500;
     text-align: left;
     margin-bottom: 15px;
     padding: 10px 0;
-    letter-spacing: 1px;
     font-weight: 450;
     font-size: 18px;
     max-width: 1000px;
@@ -688,7 +689,7 @@ hr {
     flex-direction: column;
     display: flex;
     background-color: #FBFBFD;
-    height: 650px;
+    height: 750px;
     width: 100vw;
   }
   
@@ -717,7 +718,7 @@ hr {
   }
   
   .box-container{
-    flex-direction: row;
+    flex-direction: column;
     display: flex;
   }
   
@@ -990,7 +991,7 @@ hr {
 
   .card-p {
     max-width: 220px;
-    font-weight: 500;
+    font-weight: 350;
     font-size: 12px; /* Diminui o tamanho da fonte */
   }
 
@@ -1062,7 +1063,7 @@ hr {
     text-align: left;
     margin-bottom: 15px;
     padding: 10px 0;
-    letter-spacing: 1px;
+    letter-spacing: normal;
     font-weight: 500;
     font-size: 16px;
     max-width: 1000px;
