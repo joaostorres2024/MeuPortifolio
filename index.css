@@ -387,18 +387,13 @@ hr {
   align-items: center;
   justify-content: center;
   display: flex;
-  height: 850px;
+  height: 700px;
   width: 100vw;
   background-color: #FCFCFC;
 }
 
-.card-a{
-  text-decoration: none;
-  color: #121212;
-}
-
 .h2-projects{
-  padding: 50px 0;
+  padding: 20px 0;
   font-size: 40px;
   background: linear-gradient(to right, #2CA2B4, #5598DE, #7F87FF, #F65AAD, #EC3D43);
   -webkit-background-clip: text;
@@ -407,45 +402,35 @@ hr {
   animation: animated-gradient 20s linear infinite;
 }
 
-.card-projects-container{
-  max-height: 100%;
-  max-width: 100%;
-  flex-direction: row;
-  display: flex;
-}
-
-.card-projects{
-  margin: 10px;
+.project-content{
   align-items: center;
-  flex-direction: column;
+  width: 100%;
   display: flex;
-  background-color: #FBFBFD;
-  border-radius: 10px;
-  border: 1px solid #DADADA;
+  flex-direction: row;
 }
 
-.card-thumbnail{
-  max-height: 100%;
-  max-width: 100%;
+.project-text{
+  margin: -30px;
 }
 
-.h2-card-projects{
-  text-align: center;
-  padding: 15px 15px;
-  font-weight: 500;
-  font-size: 25px;
+.project-img{
+  width: 800px;
 }
 
-.p-card-projects{
-  color: #ADADAD;
-  text-align: center;
-  padding: 10px 15px;
-  max-width: 100%;
-  font-size: 18px;
+.title-website{
+  padding: 5px 0;
+  font-size: 35px;
 }
 
-.btn-projects{
-  margin-top: 40px;
+.p-website{
+  padding: 5px 0;
+  font-size: 20px;
+  max-width: 550px;
+}
+
+.btn-see{
+  margin: 15px 0;
+  background-color: #FCFCFC;
   cursor: pointer;
   font-size: 20px;
   font-weight: 700;
@@ -453,8 +438,8 @@ hr {
   border-radius: 30px;
   height: 40px;
   width: 200px;
-  color: #FCFCFC;
-  background-color: #0071E3;
+  color: #0071E3;
+  border: 1px solid #0071E3;
 }
 
 .contact-container{
