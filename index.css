@@ -442,6 +442,10 @@ hr {
   border: 1px solid #0071E3;
 }
 
+.btn-see:hover{
+  background-color: #dddddd;
+}
+
 .contact-container{
   flex-direction: column;
   justify-content: center;
