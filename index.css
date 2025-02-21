@@ -99,6 +99,7 @@ hr {
 }
 
 .card {
+  margin-left: -10px;
   color: #FCFCFC;
   text-align: left;
 }
@@ -112,7 +113,7 @@ hr {
 .card-p {
   letter-spacing: normal;
   font-weight: 450;
-  max-width: 310px;
+  max-width: 400px;
   font-size: 16px;
 }
 
@@ -186,7 +187,7 @@ hr {
   letter-spacing: normal;
   font-weight: 350;
   font-size: 20px;
-  max-width: 500px;
+  max-width: 600px;
 }
 
 .btn-portfolio-aboutme{
