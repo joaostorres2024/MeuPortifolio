@@ -555,7 +555,6 @@ hr {
   }
 
   .h1-home {
-    margin-top: -250px;
     font-size: 45px; 
     text-align: left; 
   }
@@ -569,6 +568,10 @@ hr {
     left: 50px;
     flex-direction: column; 
     display: flex;
+  }
+
+  .card{
+    margin: 0;
   }
 
   .card h2 {
@@ -794,8 +797,8 @@ hr {
   }
   
   .icons-container{
-  padding: 0 15px;
-  display: flex;
+    padding: 0 15px;
+    display: flex;
   }
 
   .icons-img{
@@ -804,18 +807,46 @@ hr {
   }
   
   .projects-container{
-    padding: 0 30px;
+    padding: 10px 30px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     display: flex;
-    height: 1700px;
+    height: 2150px;
     width: 100vw;
     background-color: #FCFCFC;
   }
+
+  .project-content{
+    overflow: hidden;
+    padding: 25PX 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-img{
+    width: 500px;
+  }
   
+  .project-text{
+    text-align: center;
+  }
+
+  .title-website{
+    padding: 15px 0 10px 0;
+    font-size: 35px;
+  }
+
+  .project-icons{
+    padding: 20px;
+  }
+
+  .p-website{
+    font-size: 18px;
+  }
+
   .h2-projects{
-    padding: 50px 0;
+    padding: 20px 0;
     font-size: 35px;
     background: linear-gradient(to right, #2CA2B4, #5598DE, #7F87FF, #F65AAD, #EC3D43);
     -webkit-background-clip: text;
@@ -1126,6 +1157,34 @@ hr {
     font-size: 18px;
     font-weight: 550;
   }
+
+  .project-img{
+    width: 350px;
+  }
+
+  .title-website{
+    padding: 7px 0 10px 0;
+    font-size: 30px;
+  }
+
+  .p-website{
+    max-width: 400px;
+    font-size: 15px;
+  }
+
+  .project-text{
+    margin: 0;
+  }
+
+  .project-icons{
+    padding: 20px;
+  }
+
+  .project-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
   
   .card-exp{
     margin: 0 5px;
@@ -1265,7 +1324,7 @@ hr {
     align-items: center;
     justify-content: center;
     display: flex;
-    height: 1220px;
+    height: 1870px;
     width: 100vw;
     background-color: #FCFCFC;
   }
