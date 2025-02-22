@@ -1394,6 +1394,16 @@ hr {
     background-color: #0071E3;
   }
 
+  .btn-see{
+    border: 1px solid #0063c7;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 30px;
+    height: 30px;
+    width: 150px;
+  }
+
   .contact-container{
     padding: 0 30px;
     flex-direction: column;
