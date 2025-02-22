@@ -1176,7 +1176,8 @@ hr {
   }
 
   .project-icons{
-    padding: 20px;
+    width: 60px;
+    padding: 12px;
   }
 
   .project-content{
