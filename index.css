@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
-@import url('https://fonts.cdnfonts.com/css/akira-expanded');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
 * {
   overflow-x: hidden;
@@ -7,12 +7,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'PT Serif', sans-serif;
 }
 
 hr {
   width: 100vw;
-  background: linear-gradient(to right, #FCCA34, #FCF904, #9CFA5C, #1CF9E4, #7F87FF);
+  background: linear-gradient(to right, #02F5CA,#00ACCC, #0284F5, #0237F5);
   height: 5px;
   border: none;
 }
@@ -33,6 +33,7 @@ hr {
 }
 
 .ul-li-text {
+  font-family: "Montserrat";
   list-style-type: none;
   font-size: 16px;
   padding: 0 10px;
@@ -70,8 +71,8 @@ hr {
 .h1-home {
   margin-top: -70px;
   font-size: 50px;
-  font-family: 'Akira Expanded';
-  background: linear-gradient(to right, #2CA2B4, #5598DE, #7F87FF, #F65AAD, #EC3D43);
+  font-family: 'Montserrat';
+  background: linear-gradient(to right, #02F5CA,#00ACCC, #0284F5, #0237F5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 500% auto;
@@ -169,7 +170,8 @@ hr {
   align-items: center;
   display: flex;
   font-size: 40px;
-  background: linear-gradient(to right, #2CA2B4, #5598DE, #7F87FF, #F65AAD, #EC3D43);
+  background: linear-gradient(to right, #02F5CA,#00ACCC, #0284F5, #0237F5);
+  font-family: 'Montserrat';
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 500% auto;
@@ -247,7 +249,8 @@ hr {
 
 .h2-experiences{
   font-size: 40px;
-  background: linear-gradient(to right, #2CA2B4, #5598DE, #7F87FF, #F65AAD, #EC3D43);
+  background: linear-gradient(to right, #02F5CA,#00ACCC, #0284F5, #0237F5);
+  font-family: 'Montserrat';
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 500% auto;
@@ -310,7 +313,8 @@ hr {
 
 .box h3{
   padding: 0 13px;
-  background: linear-gradient(to right, #2CA2B4, #5598DE, #7F87FF, #F65AAD, #EC3D43);
+  background: linear-gradient(to right, #02F5CA,#00ACCC, #0284F5, #0237F5);
+  font-family: 'Montserrat';
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 500% auto;
@@ -344,7 +348,8 @@ hr {
 .h2-languages{
   padding: 50px 0;
   font-size: 40px;
-  background: linear-gradient(to right, #2CA2B4, #5598DE, #7F87FF, #F65AAD, #EC3D43);
+  background: linear-gradient(to right, #02F5CA,#00ACCC, #0284F5, #0237F5);
+  font-family: 'Montserrat';
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 500% auto;
@@ -396,7 +401,8 @@ hr {
 .h2-projects{
   padding: 20px 0;
   font-size: 40px;
-  background: linear-gradient(to right, #2CA2B4, #5598DE, #7F87FF, #F65AAD, #EC3D43);
+  background: linear-gradient(to right, #02F5CA,#00ACCC, #0284F5, #0237F5);
+  font-family: 'Montserrat';
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 500% auto;
@@ -420,6 +426,7 @@ hr {
 }
 
 .title-website{
+  font-family: 'Montserrat';
   padding: 5px 0;
   font-size: 35px;
 }
@@ -469,7 +476,8 @@ hr {
 .h2-contact{
   padding: 5px 0;
   font-size: 40px;
-  background: linear-gradient(to right, #2CA2B4, #5598DE, #7F87FF, #F65AAD, #EC3D43);
+  background: linear-gradient(to right, #02F5CA,#00ACCC, #0284F5, #0237F5);
+  font-family: 'Montserrat';
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 500% auto;
@@ -634,7 +642,8 @@ hr {
     align-items: center;
     display: flex;
     font-size: 35px;
-    background: linear-gradient(to right, #2CA2B4, #5598DE, #7F87FF, #F65AAD, #EC3D43);
+    background: linear-gradient(to right, #02F5CA,#00ACCC, #0284F5, #0237F5);
+    font-family: 'Montserrat';
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 500% auto;
@@ -738,7 +747,8 @@ hr {
   
   .box h3{
     padding: 0 13px;
-    background: linear-gradient(to right, #2CA2B4, #5598DE, #7F87FF, #F65AAD, #EC3D43);
+    background: linear-gradient(to right, #02F5CA,#00ACCC, #0284F5, #0237F5);
+    font-family: 'Montserrat';
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 500% auto;
@@ -772,7 +782,8 @@ hr {
   .h2-languages{
     padding: 10px 0;
     font-size: 35px;
-    background: linear-gradient(to right, #2CA2B4, #5598DE, #7F87FF, #F65AAD, #EC3D43);
+    background: linear-gradient(to right, #02F5CA,#00ACCC, #0284F5, #0237F5);
+    font-family: 'Montserrat';
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 500% auto;
@@ -848,7 +859,8 @@ hr {
   .h2-projects{
     padding: 20px 0;
     font-size: 35px;
-    background: linear-gradient(to right, #2CA2B4, #5598DE, #7F87FF, #F65AAD, #EC3D43);
+    background: linear-gradient(to right, #02F5CA,#00ACCC, #0284F5, #0237F5);
+    font-family: 'Montserrat';
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 500% auto;
@@ -923,7 +935,7 @@ hr {
   .h2-contact{
     padding: 2px 0;
     font-size: 35px;
-    background: linear-gradient(to right, #2CA2B4, #5598DE, #7F87FF, #F65AAD, #EC3D43);
+    background: linear-gradient(to right, #02F5CA,#00ACCC, #0284F5, #0237F5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 500% auto;
@@ -1069,7 +1081,8 @@ hr {
     align-items: center;
     display: flex;
     font-size: 30px;
-    background: linear-gradient(to right, #2CA2B4, #5598DE, #7F87FF, #F65AAD, #EC3D43);
+    background: linear-gradient(to right, #02F5CA,#00ACCC, #0284F5, #0237F5);
+    font-family: 'Montserrat';
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 500% auto;
@@ -1145,7 +1158,8 @@ hr {
   
   .h2-experiences{
     font-size: 30px;
-    background: linear-gradient(to right, #2CA2B4, #5598DE, #7F87FF, #F65AAD, #EC3D43);
+    background: linear-gradient(to right, #02F5CA,#00ACCC, #0284F5, #0237F5);
+    font-family: 'Montserrat';
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 500% auto;
@@ -1253,7 +1267,8 @@ hr {
   
   .box h3{
     padding: 0 13px;
-    background: linear-gradient(to right, #2CA2B4, #5598DE, #7F87FF, #F65AAD, #EC3D43);
+    background: linear-gradient(to right, #02F5CA,#00ACCC, #0284F5, #0237F5);
+    font-family: 'Montserrat';
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 500% auto;
@@ -1288,7 +1303,8 @@ hr {
   .h2-languages{
     padding: 20px 0;
     font-size: 30px;
-    background: linear-gradient(to right, #2CA2B4, #5598DE, #7F87FF, #F65AAD, #EC3D43);
+    background: linear-gradient(to right, #02F5CA,#00ACCC, #0284F5, #0237F5);
+    font-family: 'Montserrat';
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 500% auto;
@@ -1337,7 +1353,8 @@ hr {
     margin-bottom: 10px;
     padding: 20px 0;
     font-size: 30px;
-    background: linear-gradient(to right, #2CA2B4, #5598DE, #7F87FF, #F65AAD, #EC3D43);
+    background: linear-gradient(to right, #02F5CA,#00ACCC, #0284F5, #0237F5);
+    font-family: 'Montserrat';
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 500% auto;
@@ -1423,7 +1440,8 @@ hr {
   .h2-contact{
     padding: 5px 0;
     font-size: 30px;
-    background: linear-gradient(to right, #2CA2B4, #5598DE, #7F87FF, #F65AAD, #EC3D43);
+    background: linear-gradient(to right, #02F5CA,#00ACCC, #0284F5, #0237F5);
+    font-family: 'Montserrat';
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 500% auto;
