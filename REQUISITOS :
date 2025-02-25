@@ -1,0 +1,14 @@
+REQUISITOS :
+
+Front-End (Javascript, PHP)
+Back-End - (Python)
+Banco de Dados - (MySQL)
+Metodologia ágil (Scrum)
+Versionamento (Git)
+
+Acessos diferentes (para professores e alunos) separados pelo back-end
+Professores entram com chaves simples (Login e senha), e alunos (Matricula e senha) separados por uma aba Sou Professor e Sou alunos
+
+Segurança : Criptografia de Hash (simples sendo feito com um calculo unico)
+
+Notificações de notas via e-mail

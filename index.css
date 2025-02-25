@@ -319,7 +319,7 @@ hr {
   -webkit-text-fill-color: transparent;
   background-size: 500% auto;
   animation: animated-gradient 20s linear infinite;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .job{
@@ -701,6 +701,7 @@ hr {
   }
   
   .h2-experiences{
+    font-size: 35px;
     max-height: 100%;
     max-width: 100%;
   }
@@ -998,7 +999,8 @@ hr {
 @media (max-width: 530px) {
 
   .ul-li-text{
-    font-size: 12px;
+    padding: 6px;
+    font-size: 10px;
   }
 
   .home-container {
@@ -1273,7 +1275,7 @@ hr {
     -webkit-text-fill-color: transparent;
     background-size: 500% auto;
     animation: animated-gradient 20s linear infinite;
-    font-size: 30px;
+    font-size: 25px;
   }
   
   .job{
@@ -1438,8 +1440,9 @@ hr {
   }
   
   .h2-contact{
+    text-align: center;
     padding: 5px 0;
-    font-size: 30px;
+    font-size: 25px;
     background: linear-gradient(to right, #02F5CA,#00ACCC, #0284F5, #0237F5);
     font-family: 'Montserrat';
     -webkit-background-clip: text;
